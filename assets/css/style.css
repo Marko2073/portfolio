@@ -1,0 +1,756 @@
+@-webkit-keyframes scale-in {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes scale-in {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+header {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: #f1faeee3;
+}
+
+header .wrap {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+header .wrap #logo {
+  float: left;
+  width: 195px;
+}
+
+header .wrap #logo img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .wrap nav #navigacija {
+  list-style-type: none;
+  float: right;
+}
+
+header .wrap nav #navigacija li {
+  margin-top: 20px;
+  float: left;
+  border-right: 2px solid #203239;
+}
+
+header .wrap nav #navigacija li:last-of-type {
+  border-right: none;
+}
+
+header .wrap nav #navigacija a {
+  color: #203239;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .wrap nav #navigacija a:hover {
+  color: #f1faee;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#baner {
+  background-image: url(../img/baner1.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+#baner .wrap {
+  height: 100%;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#baner .wrap #tekst h1, #baner .wrap #tekst h2 {
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #141E27;
+  border-bottom: 4px solid #9ec1a3;
+  background-color: #f1faee;
+  border-radius: 0px 15px 0px 15px;
+  -webkit-animation: scale-in 1s;
+          animation: scale-in 1s;
+}
+
+#skils {
+  width: 100%;
+  background-color: #f1faee;
+}
+
+#skils .wrap {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#skils .wrap h1 {
+  margin: 0px auto;
+  margin-top: 25px;
+  font-size: 30px;
+  color: #141E27;
+}
+
+#skils .wrap hr {
+  border: 3px solid #141E27;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#skils .wrap .omotac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#skils .wrap .omotac .skil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#skils .wrap .omotac .skil .skilIcon {
+  width: 40%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#skils .wrap .omotac .skil .skilIcon i {
+  font-size: 80px;
+  color: #203239;
+}
+
+#skils .wrap .omotac .skil .skilText {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #203239;
+}
+
+#about {
+  width: 100%;
+  background-color: #9ec1a3;
+}
+
+#about .wrap {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about .wrap h1 {
+  padding-top: 15px;
+  margin: 0px auto;
+  font-size: 30px;
+  color: #141E27;
+}
+
+#about .wrap hr {
+  border: 3px solid #141E27;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#about .wrap .omotac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 40px;
+}
+
+#about .wrap .omotac #textAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+#about .wrap .omotac #textAbout p {
+  font-size: 22px;
+  font-weight: 800;
+  width: 70%;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #203239;
+}
+
+#about .wrap .omotac #photoMe {
+  width: 50%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about .wrap .omotac #photoMe img {
+  width: 40%;
+}
+
+#services {
+  width: 100%;
+  background-color: #f1faee;
+}
+
+#services .wrap {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#services .wrap h1 {
+  margin: 0px auto;
+  margin-top: 25px;
+  font-size: 30px;
+  color: #141E27;
+}
+
+#services .wrap hr {
+  border: 3px solid #141E27;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#services .wrap .omotac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#services .wrap .omotac .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#services .wrap .omotac .service .serviceIcon {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#services .wrap .omotac .service .serviceIcon svg {
+  fill: #203239;
+}
+
+#services .wrap .omotac .service .serviceText {
+  padding: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: #203239;
+}
+
+#projects {
+  width: 100%;
+  background-color: #9ec1a3;
+}
+
+#projects .wrap {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#projects .wrap h2 {
+  margin: 0px auto;
+  margin-top: 25px;
+  font-size: 30px;
+  color: #141E27;
+}
+
+#projects .wrap hr {
+  border: 3px solid #141E27;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#projects .wrap .omotac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#projects .wrap .omotac .project {
+  width: 49%;
+  height: auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#projects .wrap .omotac .project .projectPicture {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+
+#projects .wrap .omotac .project .projectPicture img {
+  -webkit-filter: blur(5px) grayscale(0.5);
+          filter: blur(5px) grayscale(0.5);
+  width: 70%;
+  border: 3px solid #203239;
+}
+
+#projects .wrap .omotac .project .projectPicture img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-filter: none;
+          filter: none;
+}
+
+#projects .wrap .omotac .project .projectPicture .projectText {
+  position: absolute;
+  background-color: #9ec1a3;
+  width: 100%;
+  margin-top: 20%;
+}
+
+#projects .wrap .omotac .project .projectPicture .projectText h3 {
+  color: #203239;
+  padding: 5px;
+}
+
+#contact {
+  width: 100%;
+  background-color: #f1faee;
+}
+
+#contact .wrap {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px auto;
+}
+
+#contact .wrap h2 {
+  padding-top: 15px;
+  margin: 0px auto;
+  font-size: 30px;
+  color: #141E27;
+}
+
+#contact .wrap hr {
+  border: 3px solid #141E27;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#contact .wrap .omotac {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+#contact .wrap .omotac #formContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+#contact .wrap .omotac #formContact ::-webkit-input-placeholder {
+  color: #141E27;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact .wrap .omotac #formContact :-ms-input-placeholder {
+  color: #141E27;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact .wrap .omotac #formContact ::-ms-input-placeholder {
+  color: #141E27;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact .wrap .omotac #formContact ::placeholder {
+  color: #141E27;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact .wrap .omotac #formContact #imePrezime, #contact .wrap .omotac #formContact #email, #contact .wrap .omotac #formContact #napomena {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #9ec1a3;
+  border-bottom: 2px solid #203239;
+  text-align: center;
+  font-size: 18px;
+  color: #141E27;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#contact .wrap .omotac #formContact #buttons {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#contact .wrap .omotac #formContact #buttons #potvrdi, #contact .wrap .omotac #formContact #buttons #reset {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #9ec1a3;
+  text-align: center;
+  font-size: 18px;
+  color: #141E27;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #203239;
+}
+
+#contact .wrap .omotac #formContact #buttons #potvrdi:last-of-type, #contact .wrap .omotac #formContact #buttons #reset:last-of-type {
+  margin-right: 0px;
+}
+
+#contact .wrap .omotac #formContact #buttons #potvrdi:hover, #contact .wrap .omotac #formContact #buttons #reset:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+  color: #f1faee;
+  background-color: #203239;
+}
+
+#contact .wrap .omotac #formContact #napomena {
+  height: 80px;
+}
+
+#contact .wrap .omotac #lokacija {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+#contact .wrap .omotac #lokacija iframe {
+  width: 80%;
+  height: 80%;
+}
+
+footer {
+  width: 100%;
+  background-color: #9ec1a3;
+}
+
+footer .wrap {
+  width: 85%;
+  height: 100%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .wrap #copyright {
+  padding: 10px;
+  font-size: 22px;
+}
+
+footer .wrap #copyright p {
+  color: #203239;
+  text-align: center;
+}
+
+footer .wrap hr {
+  border: 3px solid #141E27;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+footer .wrap #social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .wrap #social ul {
+  padding: 10px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .wrap #social ul li {
+  margin: 10px;
+}
+
+footer .wrap #social ul li a {
+  font-size: 22px;
+  color: #141E27;
+}
+
+footer .wrap #social ul li a:hover {
+  color: #f1faee;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .wrap #cssSass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .wrap #cssSass #css, footer .wrap #cssSass #sass {
+  margin: 10px;
+}
+
+footer .wrap #cssSass #css a, footer .wrap #cssSass #sass a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #141E27;
+}
+
+footer .wrap #cssSass #css a:hover, footer .wrap #cssSass #sass a:hover {
+  color: #f1faee;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=style.css.map */

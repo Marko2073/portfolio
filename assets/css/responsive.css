@@ -1,0 +1,495 @@
+@media (max-width: 1700px) {
+  #skils .wrap h1, #services .wrap h1, #about .wrap h1 {
+    font-size: 35px;
+  }
+  #projects .wrap h2, #contact .wrap h2 {
+    font-size: 35px;
+  }
+  #contact .wrap .omotac #formContact ::-webkit-input-placeholder {
+    font-size: 22px;
+  }
+  #contact .wrap .omotac #formContact :-ms-input-placeholder {
+    font-size: 22px;
+  }
+  #contact .wrap .omotac #formContact ::-ms-input-placeholder {
+    font-size: 22px;
+  }
+  #contact .wrap .omotac #formContact ::placeholder {
+    font-size: 22px;
+  }
+  #contact .wrap .omotac #formContact #imePrezime, #contact .wrap .omotac #formContact #email, #contact .wrap .omotac #formContact #potvrdi, #contact .wrap .omotac #formContact #reset {
+    height: 45px;
+  }
+  #contact .wrap .omotac #formContact #napomena {
+    height: 150px;
+  }
+  #contact .wrap .omotac #formContact #buttons #potvrdi, #contact .wrap .omotac #formContact #buttons #reset {
+    height: 45px;
+    font-size: 22px;
+  }
+  #contact .wrap .omotac #lokacija {
+    height: 100%;
+  }
+  #contact .wrap .omotac #lokacija iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1025px) {
+  #about .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .wrap .omotac #textAbout {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  #about .wrap .omotac #textAbout p {
+    width: 80%;
+  }
+  #about .wrap .omotac #photoMe {
+    width: 50%;
+  }
+  #about .wrap .omotac #photoMe img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 860px) {
+  header .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .wrap #logo {
+    width: 195px;
+  }
+  header .wrap nav #navigacija {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .wrap nav #navigacija li {
+    margin-top: 0px;
+  }
+  header .wrap nav #navigacija li:last-of-type {
+    margin: 0px;
+    margin-left: 5px;
+  }
+  #skils .wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #skils .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #skils .wrap .omotac .skil {
+    width: 49%;
+  }
+  #skils .wrap .omotac .skil .skilIcon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #services .wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #services .wrap .omotac .service {
+    width: 49%;
+  }
+  #services .wrap .omotac .service .sericeIcon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact .wrap {
+    width: 100%;
+  }
+  #about .wrap {
+    width: 95%;
+  }
+  #projects .wrap {
+    width: 95%;
+  }
+  #projects .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #projects .wrap .omotac .project {
+    width: 80%;
+  }
+}
+
+@media (max-width: 769px) {
+  header {
+    width: 100%;
+  }
+  header .wrap {
+    width: 90%;
+  }
+  header .wrap #logo {
+    height: 60%;
+  }
+  header .wrap nav #navigacija li a {
+    font-size: 19px;
+  }
+  #about .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .wrap .omotac #textAbout {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  #about .wrap .omotac #photoMe {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+  #projects .wrap {
+    height: 100%;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #projects .wrap .omotac .project .projectPicture img {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+
+@media (max-width: 640px) {
+  header .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .wrap #logo {
+    width: 195px;
+  }
+  header .wrap nav #navigacija {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .wrap nav #navigacija li {
+    margin-top: 0px;
+  }
+  header .wrap nav #navigacija li:last-of-type {
+    margin: 0px;
+    margin-left: 5px;
+  }
+  #about .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .wrap .omotac #textAbout {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  #about .wrap .omotac #photoMe {
+    width: 80%;
+  }
+  #projects .wrap {
+    height: 100%;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #projects .wrap .omotac .project {
+    width: 100%;
+  }
+  #projects .wrap .omotac .project .projectPicture {
+    width: 100%;
+  }
+  #contact .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact .wrap .omotac #formContact {
+    width: 90%;
+  }
+  #contact .wrap .omotac #lokacija {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  footer .wrap #social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 481px) {
+  header {
+    position: relative;
+  }
+  header .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .wrap #logo {
+    width: 195px;
+  }
+  header .wrap nav #navigacija {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .wrap nav #navigacija li {
+    border: none;
+    padding: 3px;
+  }
+  header .wrap nav #navigacija li:last-of-type {
+    margin-top: 0px;
+  }
+  header .wrap nav #navigacija li a {
+    font-size: 21px;
+    margin-bottom: 5px;
+  }
+  #baner .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0px;
+    font-size: 27px;
+  }
+  #baner .wrap #tekst h1, #baner .wrap #tekst h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  #skils .wrap {
+    height: 100%;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #skils .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #skils .wrap .omotac .skil {
+    width: 100%;
+  }
+  #skils .wrap .omotac .skil .skilIcon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #services .wrap {
+    height: 100%;
+    margin: 0px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services .wrap .omotac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services .wrap .omotac .service {
+    width: 100%;
+  }
+  #services .wrap .omotac .service .sericeIcon {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
