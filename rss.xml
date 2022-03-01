@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-
 	<channel>
 			<title>Markovic photography | Home</title>
-			<link>https://marko2073.github.io/index.html</link>
+			<link>https://marko2073.github.io/portfolio/</link>
 			<description>Novosti</description>
-		<item>
-			<title>O meni</title>
-			<link>https://marko2073.github.io/about.html</link>
-			<description>Novosti o meni</description>
-		</item>
 	</channel>
 
 </rss> 
