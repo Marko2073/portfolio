@@ -20,6 +20,36 @@
   }
 }
 
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: translateY(0%) rotateX(360deg);
+            transform: translateY(0%) rotateX(360deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+}
+
+@keyframes flip {
+  0% {
+    -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: translateY(0%) rotateX(360deg);
+            transform: translateY(0%) rotateX(360deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -115,8 +145,8 @@ header .wrap nav #navigacija a:hover {
   border-bottom: 4px solid #9ec1a3;
   background-color: #f1faee;
   border-radius: 0px 15px 0px 15px;
-  -webkit-animation: scale-in 1s;
-          animation: scale-in 1s;
+  -webkit-animation: flip 2s;
+          animation: flip 2s;
 }
 
 #skils {
@@ -142,6 +172,8 @@ header .wrap nav #navigacija a:hover {
   margin-top: 25px;
   font-size: 30px;
   color: #141E27;
+  -webkit-animation: scale-in 1s;
+          animation: scale-in 1s;
 }
 
 #skils .wrap hr {
@@ -228,6 +260,8 @@ header .wrap nav #navigacija a:hover {
   margin: 0px auto;
   font-size: 30px;
   color: #141E27;
+  -webkit-animation: scale-in 1s;
+          animation: scale-in 1s;
 }
 
 #about .wrap hr {
@@ -262,7 +296,20 @@ header .wrap nav #navigacija a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 50%;
+}
+
+#about .wrap .omotac #textAbout h3 {
+  font-size: 23px;
+  color: #f1faee;
+  margin-bottom: 10px;
 }
 
 #about .wrap .omotac #textAbout p {
@@ -270,6 +317,7 @@ header .wrap nav #navigacija a:hover {
   font-weight: 800;
   width: 70%;
   letter-spacing: 1.5px;
+  margin-bottom: 10px;
   text-align: center;
   color: #203239;
 }
@@ -287,6 +335,9 @@ header .wrap nav #navigacija a:hover {
 
 #about .wrap .omotac #photoMe img {
   width: 40%;
+  border-radius: 30px 0 30px 0;
+  -webkit-filter: drop-shadow(10px 10px 10px #203239);
+          filter: drop-shadow(10px 10px 10px #203239);
 }
 
 #services {
@@ -312,6 +363,8 @@ header .wrap nav #navigacija a:hover {
   margin-top: 25px;
   font-size: 30px;
   color: #141E27;
+  -webkit-animation: scale-in 1s;
+          animation: scale-in 1s;
 }
 
 #services .wrap hr {
@@ -396,6 +449,8 @@ header .wrap nav #navigacija a:hover {
   margin-top: 25px;
   font-size: 30px;
   color: #141E27;
+  -webkit-animation: scale-in 1s;
+          animation: scale-in 1s;
 }
 
 #projects .wrap hr {
@@ -499,6 +554,8 @@ header .wrap nav #navigacija a:hover {
   margin: 0px auto;
   font-size: 30px;
   color: #141E27;
+  -webkit-animation: scale-in 1s;
+          animation: scale-in 1s;
 }
 
 #contact .wrap hr {
@@ -625,6 +682,7 @@ header .wrap nav #navigacija a:hover {
 
 #contact .wrap .omotac #formContact #napomena {
   height: 80px;
+  padding-top: 10px;
 }
 
 #contact .wrap .omotac #lokacija {
