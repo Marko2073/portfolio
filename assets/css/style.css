@@ -177,11 +177,12 @@ header .wrap nav #navigacija a:hover {
 }
 
 #skils .wrap hr {
-  border: 3px solid #141E27;
+  border: 2px solid #141E27;
   width: 50%;
   margin: 0px auto;
   margin-top: 10px;
   margin-bottom: 30px;
+  background-color: #141E27;
 }
 
 #skils .wrap .omotac {
@@ -210,7 +211,10 @@ header .wrap nav #navigacija a:hover {
           align-items: center;
   width: 35%;
   height: auto;
-  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #9ec1a38e;
+  margin: 10px;
 }
 
 #skils .wrap .omotac .skil .skilIcon {
@@ -265,11 +269,12 @@ header .wrap nav #navigacija a:hover {
 }
 
 #about .wrap hr {
-  border: 3px solid #141E27;
+  border: 2px solid #141E27;
   width: 50%;
   margin: 0px auto;
   margin-top: 10px;
   margin-bottom: 30px;
+  background-color: #141E27;
 }
 
 #about .wrap .omotac {
@@ -368,11 +373,12 @@ header .wrap nav #navigacija a:hover {
 }
 
 #services .wrap hr {
-  border: 3px solid #141E27;
+  border: 2px solid #141E27;
   width: 50%;
   margin: 0px auto;
   margin-top: 10px;
   margin-bottom: 30px;
+  background-color: #141E27;
 }
 
 #services .wrap .omotac {
@@ -401,7 +407,10 @@ header .wrap nav #navigacija a:hover {
           align-items: center;
   width: 24%;
   height: auto;
-  margin-top: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #9ec1a38e;
 }
 
 #services .wrap .omotac .service .serviceIcon {
@@ -421,6 +430,7 @@ header .wrap nav #navigacija a:hover {
 
 #services .wrap .omotac .service .serviceText {
   padding: 20px;
+  font-weight: 700;
   font-size: 22px;
   text-align: center;
   color: #203239;
@@ -454,11 +464,12 @@ header .wrap nav #navigacija a:hover {
 }
 
 #projects .wrap hr {
-  border: 3px solid #141E27;
+  border: 2px solid #141E27;
   width: 50%;
   margin: 0px auto;
   margin-top: 10px;
   margin-bottom: 30px;
+  background-color: #141E27;
 }
 
 #projects .wrap .omotac {
@@ -559,11 +570,12 @@ header .wrap nav #navigacija a:hover {
 }
 
 #contact .wrap hr {
-  border: 3px solid #141E27;
+  border: 2px solid #141E27;
   width: 50%;
   margin: 0px auto;
   margin-top: 10px;
   margin-bottom: 30px;
+  background-color: #141E27;
 }
 
 #contact .wrap .omotac {
@@ -735,11 +747,12 @@ footer .wrap #copyright p {
 }
 
 footer .wrap hr {
-  border: 3px solid #141E27;
+  border: 2px solid #141E27;
   width: 50%;
   margin: 0px auto;
   margin-top: 10px;
   margin-bottom: 30px;
+  background-color: #141E27;
   margin-bottom: 0px;
 }
 
@@ -796,17 +809,17 @@ footer .wrap #cssSass {
           flex-direction: row;
 }
 
-footer .wrap #cssSass #css, footer .wrap #cssSass #sass {
+footer .wrap #cssSass #css, footer .wrap #cssSass #sass, footer .wrap #cssSass #Rcss, footer .wrap #cssSass #Rsass {
   margin: 10px;
 }
 
-footer .wrap #cssSass #css a, footer .wrap #cssSass #sass a {
+footer .wrap #cssSass #css a, footer .wrap #cssSass #sass a, footer .wrap #cssSass #Rcss a, footer .wrap #cssSass #Rsass a {
   font-size: 22px;
   font-weight: bold;
   color: #141E27;
 }
 
-footer .wrap #cssSass #css a:hover, footer .wrap #cssSass #sass a:hover {
+footer .wrap #cssSass #css a:hover, footer .wrap #cssSass #sass a:hover, footer .wrap #cssSass #Rcss a:hover, footer .wrap #cssSass #Rsass a:hover {
   color: #f1faee;
   -webkit-transition: 0.5s;
   transition: 0.5s;

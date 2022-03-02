@@ -64,9 +64,21 @@
   #about .wrap .omotac #photoMe img {
     width: 80%;
   }
+  #skils .wrap {
+    width: 100%;
+  }
+  #skils .wrap .omotac .skil {
+    margin: 10px;
+  }
+  #services .wrap {
+    width: 100%;
+  }
+  #services .wrap .omotac .skil {
+    margin: 10px;
+  }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1025px) and (max-width: 860px) {
   header .wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -122,7 +134,7 @@
             justify-content: center;
   }
   #skils .wrap .omotac .skil {
-    width: 49%;
+    width: 40%;
   }
   #skils .wrap .omotac .skil .skilIcon {
     width: 100%;
@@ -156,7 +168,7 @@
             justify-content: center;
   }
   #services .wrap .omotac .service {
-    width: 49%;
+    width: 40%;
   }
   #services .wrap .omotac .service .sericeIcon {
     width: 100%;
@@ -193,7 +205,7 @@
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1025px) and (max-width: 769px) {
   header {
     width: 100%;
   }
@@ -254,7 +266,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1025px) and (max-width: 640px) {
   header .wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -368,7 +380,7 @@
   }
 }
 
-@media (max-width: 481px) {
+@media (max-width: 1025px) and (max-width: 481px) {
   header {
     position: relative;
   }
@@ -446,9 +458,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #skils .wrap .omotac .skil {
-    width: 100%;
+    width: 90%;
+  }
+  #skils .wrap .omotac .skil:last-of-type {
+    margin-bottom: 30px;
   }
   #skils .wrap .omotac .skil .skilIcon {
     width: 100%;
@@ -478,9 +496,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #services .wrap .omotac .service {
-    width: 100%;
+    width: 90%;
   }
   #services .wrap .omotac .service .sericeIcon {
     width: 100%;
