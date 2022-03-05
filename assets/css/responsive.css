@@ -92,7 +92,14 @@
             align-items: center;
   }
   header .wrap #logo {
-    width: 195px;
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
   }
   header .wrap nav #navigacija {
     margin-top: 0px;
@@ -145,6 +152,9 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #skils .wrap .omotac .skil .skilText {
+    font-size: 19px;
+  }
   #services .wrap {
     width: 100%;
     height: 100%;
@@ -179,11 +189,27 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #services .wrap .omotac .service .serviceText {
+    font-size: 19px;
+  }
   #contact .wrap {
     width: 100%;
   }
   #about .wrap {
     width: 95%;
+  }
+  #about .wrap .omotac #photoMe {
+    width: 50%;
+    margin-bottom: 35px;
+  }
+  #about .wrap .omotac #photoMe img {
+    width: 60%;
+  }
+  #about .wrap .omotac #textAbout h3 {
+    font-size: 20px;
+  }
+  #about .wrap .omotac #textAbout p {
+    font-size: 19px;
   }
   #projects .wrap {
     width: 95%;
@@ -280,7 +306,7 @@
             align-items: center;
   }
   header .wrap #logo {
-    width: 195px;
+    font-size: 30px;
   }
   header .wrap nav #navigacija {
     margin-top: 0px;
@@ -298,6 +324,23 @@
   header .wrap nav #navigacija li:last-of-type {
     margin: 0px;
     margin-left: 5px;
+  }
+  #skils .wrap .omotac .skil .skilIcon i {
+    font-size: 60px;
+  }
+  #skils .wrap .omotac .skil .skilText {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1025px) {
+  #services .wrap .omotac .service .sericeIcon {
+    height: 60px;
+  }
+  #services .wrap .omotac .service .serviceText {
+    font-weight: 700;
+    font-size: 20px;
   }
   #about .wrap .omotac {
     display: -webkit-box;
@@ -318,8 +361,11 @@
     width: 90%;
     margin-bottom: 30px;
   }
+  #about .wrap .omotac #textAbout p {
+    font-size: 18px;
+  }
   #about .wrap .omotac #photoMe {
-    width: 80%;
+    width: 60%;
   }
   #projects .wrap {
     height: 100%;
@@ -396,8 +442,8 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  header .wrap #logo {
-    width: 195px;
+  header .wrap #logo a {
+    font-size: 25px;
   }
   header .wrap nav #navigacija {
     display: -webkit-box;
@@ -419,8 +465,8 @@
     margin-top: 0px;
   }
   header .wrap nav #navigacija li a {
-    font-size: 21px;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 7px;
   }
   #baner .wrap {
     display: -webkit-box;
@@ -437,7 +483,7 @@
   }
   #baner .wrap #tekst h1, #baner .wrap #tekst h2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 23px;
   }
   #skils .wrap {
     height: 100%;
@@ -449,6 +495,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  #skils .wrap h1 {
+    font-size: 24px;
   }
   #skils .wrap .omotac {
     display: -webkit-box;
@@ -477,6 +526,21 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #skils .wrap .omotac .skil .skilText {
+    font-size: 17px;
+  }
+  #about .wrap h1 {
+    font-size: 24px;
+  }
+  #about .wrap .omotac #photoMe img {
+    width: 80%;
+  }
+  #about .wrap .omotac #textAbout h3 {
+    font-size: 18px;
+  }
+  #about .wrap .omotac #textAbout p {
+    font-size: 17px;
+  }
   #services .wrap {
     height: 100%;
     margin: 0px auto;
@@ -487,6 +551,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  #services .wrap h1 {
+    font-size: 24px;
   }
   #services .wrap .omotac {
     display: -webkit-box;
@@ -511,6 +578,42 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  #services .wrap .omotac .service .serviceText {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1025px) {
+  #projects .wrap h2 {
+    font-size: 24px;
+  }
+  #contact .wrap h2 {
+    font-size: 24px;
+  }
+  #contact .wrap .omotac #formContact ::-webkit-input-placeholder {
+    font-size: 17px;
+  }
+  #contact .wrap .omotac #formContact :-ms-input-placeholder {
+    font-size: 17px;
+  }
+  #contact .wrap .omotac #formContact ::-ms-input-placeholder {
+    font-size: 17px;
+  }
+  #contact .wrap .omotac #formContact ::placeholder {
+    font-size: 17px;
+  }
+  #contact .wrap .omotac #formContact #buttons #potvrdi, #contact .wrap .omotac #formContact #buttons #reset {
+    font-size: 17px;
+  }
+  footer .wrap #copyright {
+    font-size: 18px;
+  }
+  footer .wrap #social ul li a {
+    font-size: 18px;
+  }
+  footer .wrap #cssSass #css a, footer .wrap #cssSass #sass a, footer .wrap #cssSass #Rcss a, footer .wrap #cssSass #Rsass a {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

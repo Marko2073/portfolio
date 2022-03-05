@@ -103,7 +103,10 @@
             flex-direction: column;
             align-items: center;
             #logo {
-                width:195px;
+                width:300px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
             }
             nav{
                 #navigacija{
@@ -141,6 +144,9 @@
                         display: flex;
                         justify-content: center;
                     }
+                    .skilText{
+                        font-size: 19px;
+                    }
                 }
             }
         }
@@ -163,6 +169,9 @@
                         display: flex;
                         justify-content: center;
                     }
+                    .serviceText{
+                        font-size: 19px;
+                    }
                 }
             }
         }
@@ -175,6 +184,23 @@
     #about{
         .wrap{
             width: 95%;
+            .omotac{
+                #photoMe{
+                    width:50%;
+                    margin-bottom: 35px;
+                    img{
+                        width:60%;
+                    }
+                }
+                #textAbout{
+                    h3{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 19px;
+                    }
+                }
+            }
         }
     }#projects{
         .wrap{
@@ -250,14 +276,15 @@
 }
 @media (max-width:640px)
 {
+    
     header {
         
         .wrap {
             display:flex;
             flex-direction: column;
             align-items: center;
-            #logo {
-                width:195px;
+            #logo{
+                font-size: 30px;
             }
             nav{
                 #navigacija{
@@ -267,6 +294,7 @@
                     align-items: center;
                     li{
                         margin-top: 0px;
+                        
                         &:last-of-type {
                             margin:0px;
                             margin-left: 5px;
@@ -275,6 +303,40 @@
                 }
             }
            
+        }
+    }
+    #skils{
+        .wrap{
+            .omotac{
+                .skil{
+                    .skilIcon{
+                        i{
+                            font-size: 60px;
+                        }
+                    }
+                    .skilText{
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                    }
+                }
+            }
+        }
+    }
+    #services{
+        .wrap{
+            .omotac{
+                .service{
+                    .sericeIcon{
+                        height: 60px;
+                    }
+                    .serviceText{
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                    
+                }
+            }
         }
     }
     #about{
@@ -287,9 +349,12 @@
                 #textAbout{
                     width: 90%;
                     margin-bottom: 30px;
+                    p{
+                        font-size: 18px;
+                    }
                 }
                 #photoMe{
-                    width:80%;
+                    width:60%;
                 }
             }
         }
@@ -337,7 +402,7 @@
             }
         }
     }
-}
+
 @media (max-width:481px)
 {
     header {
@@ -347,7 +412,9 @@
             flex-direction: column;
             align-items: center;
             #logo {
-                width:195px;
+                a{
+                    font-size: 25px;
+                }
             }
             nav{
                 #navigacija {  
@@ -361,8 +428,8 @@
                             margin-top: 0px;
                         }
                         a{
-                            font-size: 21px;
-                            margin-bottom: 5px;
+                            font-size: 20px;
+                            margin-bottom: 7px;
                         }
                     }
                 }
@@ -379,7 +446,7 @@
             #tekst{
                 h1,h2{
                     text-align: center;
-                    font-size: 24px;
+                    font-size: 23px;
                 }
             }
         }
@@ -390,6 +457,9 @@
             margin: 0px auto;
             display: flex;
             flex-direction: column;
+            h1{
+                font-size: 24px;
+            }
             .omotac{
                 display: flex;
                 flex-direction: column;
@@ -404,6 +474,32 @@
                         display: flex;
                         justify-content: center;
                     }
+                    .skilText{
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+    #about{
+        .wrap{
+            h1{
+                font-size: 24px;
+            }
+            .omotac{
+                #photoMe{
+                    img{
+                        width:80%;
+                    }
+                }
+                #textAbout
+                {
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
                 }
             }
         }
@@ -414,22 +510,78 @@
             margin: 0px auto;
             display: flex;
             flex-direction: column;
+            h1{
+                font-size: 24px;
+            }
             .omotac{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 .service{
                     width:90%;
-                    
                     .sericeIcon{
                         width:100%;
                         display: flex;
-                    justify-content: center;
+                        justify-content: center;
+                    }
+                        .serviceText{
+                        font-size: 17px;
+                        }
                     }
                 }
             }
         }
     }
-}
+    #projects{
+        .wrap{
+            h2{
+                font-size: 24px;
+            }
+        }
+    }
+    #contact{
+        .wrap{
+            h2{
+                font-size: 24px;
+            }
+            .omotac{
+                #formContact{
+                    ::placeholder
+                    {
+                        font-size: 17px;
+                    }
+                    #buttons{
+                        #potvrdi,#reset{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .wrap{
+            #copyright{
+                font-size: 18px;
+            }
+            #social
+            {
+                ul{
+                    li{
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            #cssSass{
+                #css, #sass,#Rcss,#Rsass{
+                    a{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
     
 }

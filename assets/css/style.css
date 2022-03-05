@@ -81,12 +81,19 @@ header .wrap {
 
 header .wrap #logo {
   float: left;
-  width: 195px;
+  width: 300px;
+  padding: 15px;
 }
 
-header .wrap #logo img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+header .wrap #logo a {
+  width: 80%;
+  font-size: 30px;
+  color: #203239;
+  font-weight: bold;
+}
+
+header .wrap #logo a:hover {
+  color: #9ec1a380;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -109,12 +116,12 @@ header .wrap nav #navigacija li:last-of-type {
 header .wrap nav #navigacija a {
   color: #203239;
   padding: 10px;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: bold;
 }
 
 header .wrap nav #navigacija a:hover {
-  color: #f1faee;
+  color: #9ec1a380;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -170,7 +177,7 @@ header .wrap nav #navigacija a:hover {
 #skils .wrap h1 {
   margin: 0px auto;
   margin-top: 25px;
-  font-size: 30px;
+  font-size: 27px;
   color: #141E27;
   -webkit-animation: scale-in 1s;
           animation: scale-in 1s;
@@ -213,8 +220,10 @@ header .wrap nav #navigacija a:hover {
   height: auto;
   border-radius: 10px;
   padding: 15px;
-  background-color: #9ec1a38e;
+  padding-top: 40px;
+  background-color: #9ec1a380;
   margin: 10px;
+  margin-bottom: 40px;
 }
 
 #skils .wrap .omotac .skil .skilIcon {
@@ -226,6 +235,7 @@ header .wrap nav #navigacija a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 10px;
 }
 
 #skils .wrap .omotac .skil .skilIcon i {
@@ -262,7 +272,7 @@ header .wrap nav #navigacija a:hover {
 #about .wrap h1 {
   padding-top: 15px;
   margin: 0px auto;
-  font-size: 30px;
+  font-size: 27px;
   color: #141E27;
   -webkit-animation: scale-in 1s;
           animation: scale-in 1s;
@@ -325,6 +335,7 @@ header .wrap nav #navigacija a:hover {
   margin-bottom: 10px;
   text-align: center;
   color: #203239;
+  word-break: break-all;
 }
 
 #about .wrap .omotac #photoMe {
@@ -366,7 +377,7 @@ header .wrap nav #navigacija a:hover {
 #services .wrap h1 {
   margin: 0px auto;
   margin-top: 25px;
-  font-size: 30px;
+  font-size: 27px;
   color: #141E27;
   -webkit-animation: scale-in 1s;
           animation: scale-in 1s;
@@ -408,20 +419,24 @@ header .wrap nav #navigacija a:hover {
   width: 24%;
   height: auto;
   margin: 10px;
+  margin-bottom: 50px;
   border-radius: 10px;
   padding: 15px;
-  background-color: #9ec1a38e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #9ec1a380;
 }
 
 #services .wrap .omotac .service .serviceIcon {
   width: 100%;
-  height: 70px;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 15px;
 }
 
 #services .wrap .omotac .service .serviceIcon svg {
@@ -430,9 +445,9 @@ header .wrap nav #navigacija a:hover {
 
 #services .wrap .omotac .service .serviceText {
   padding: 20px;
-  font-weight: 700;
   font-size: 22px;
   text-align: center;
+  font-weight: 700;
   color: #203239;
 }
 
@@ -457,7 +472,7 @@ header .wrap nav #navigacija a:hover {
 #projects .wrap h2 {
   margin: 0px auto;
   margin-top: 25px;
-  font-size: 30px;
+  font-size: 27px;
   color: #141E27;
   -webkit-animation: scale-in 1s;
           animation: scale-in 1s;
@@ -563,7 +578,7 @@ header .wrap nav #navigacija a:hover {
 #contact .wrap h2 {
   padding-top: 15px;
   margin: 0px auto;
-  font-size: 30px;
+  font-size: 27px;
   color: #141E27;
   -webkit-animation: scale-in 1s;
           animation: scale-in 1s;
