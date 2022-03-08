@@ -513,6 +513,8 @@
   }
   #skils .wrap .omotac .skil {
     width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   #skils .wrap .omotac .skil:last-of-type {
     margin-bottom: 30px;
@@ -569,6 +571,8 @@
   }
   #services .wrap .omotac .service {
     width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   #services .wrap .omotac .service .sericeIcon {
     width: 100%;

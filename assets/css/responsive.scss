@@ -44,10 +44,6 @@
         }
     }
 }
-@media(max-width:1249px)
-{
-
-}
 @media(max-width:1025px)
 {
 #about{
@@ -466,6 +462,8 @@
                 align-items: center;
                 .skil{
                     width:90%;
+                    margin-left: 10px;
+                    margin-right: 10px;
                     &:last-of-type{
                         margin-bottom: 30px;
                     }
@@ -519,6 +517,8 @@
                 align-items: center;
                 .service{
                     width:90%;
+                    margin-left: 10px;
+                    margin-right: 10px;
                     .sericeIcon{
                         width:100%;
                         display: flex;
